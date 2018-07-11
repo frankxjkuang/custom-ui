@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>custom-ui</title>
+  </head>
+  <body>
+    <div id="app">
+      <moor-hello-world :color="color" :msg="msg"></moor-hello-world>
+      <moor-switch
+      v-model="lightSwitch">开关:</moor-switch>
+    </div>
+    <!-- <script src="./node_modules/vue/dist/vue.js"></script> -->
+    <script src="/dist/custom-ui.js"></script>
+  </body>
+  <script>
+  // new Vue({
+  //   el: '#app',
+  //   data() {
+  //     return {
+  //       color: 'red',
+  //       msg: 'hello world!',
+  //       lightSwitch: false
+  //     }
+  //   }
+  // })
+  </script>
+</html>
